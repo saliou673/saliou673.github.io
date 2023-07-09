@@ -22,9 +22,6 @@
             </div>
         </div>
     </div>
-    <!-- <div id="content" style="visibility: hidden">
-        <?=file_get_contents("https://visa-fr-gn.capago.eu/WebSite_getUnavailableDayList?capago_center_id=capago_CNK&formula=premium&visa_file_list=[{%22resource_id%22:%2220190517-37FC1%22,%22variation_id%22:%226%22}]&travel_project_relative_url=undefined");?>
-    </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script>
         const container = document.querySelector("#search-appointment");
