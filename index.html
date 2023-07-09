@@ -65,13 +65,7 @@
     // });
     
     const url = 'https://visa-fr-gn.capago.eu/WebSite_getUnavailableDayList?capago_center_id=capago_CNK&formula=premium&visa_file_list=[{%22resource_id%22:%2220190517-37FC1%22,%22variation_id%22:%226%22}]&travel_project_relative_url=undefined';
-    (async () => {
-        const response = await fetch(url);
-
-        const text = await response.text();
-
-        console.log("the respone", text);
-    })();
+   
     fetch(url).then(response => {
         console.log("The response of the resquest", response);
     }).catch (error=> {
